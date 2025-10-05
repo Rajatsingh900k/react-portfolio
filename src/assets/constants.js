@@ -78,7 +78,7 @@ export const skills = [
 export const projects = [
   {
     title: "Crypto WebApp",
-    description: "A Crypto Web App that allows users to track real-time cryptocurrency prices, view detailed coin statistics, and analyze market trends with interactive charts. It features a clean, responsive interface built using React and API integration for live data updates, helping users stay informed about the latest changes in the crypto market.",
+    description: "A Crypto Web App that allows users to track real-time cryptocurrency prices, view detailed coin statistics, and analyze market trends with interactive charts.",
     image: projectImg1,
     tech: ["React","SCSS","JavaScript"],
     icons: [FaReact, RiJavascriptFill, BsFiletypeScss],
@@ -87,7 +87,7 @@ export const projects = [
   },
   {
     title: "Grocery Store Management System",
-    description: "The Grocery Store Management System is a web application designed to simplify and automate daily store operations. It allows users to manage products, track inventory, process orders, and handle billing efficiently. The system provides an intuitive interface for both administrators and customers, ensuring smooth management of stock, pricing, and sales while improving overall store productivity and customer experience.",
+    description: "The Grocery Store Management System is a web application designed to simplify and automate daily store operations. ",
     image: projectImg2,
     tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
     icons: [FaPython, SiMysql, RiJavascriptFill, FaHtml5, FaCss3 ],
