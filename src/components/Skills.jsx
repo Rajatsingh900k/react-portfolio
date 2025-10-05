@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-
+import { skills } from '../assets/constants'
 const Skills = () => {
   return (
     <motion.div
@@ -19,7 +19,32 @@ const Skills = () => {
                 Technologies I worked to bring ideas to life
             </p>
 
-            <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8 max-w-5xl ax-auto"></div>
+            <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8 max-w-5xl mx-auto">
+                {
+                    skills.map((data,index)=>(
+                        <div
+                            key={index}
+                            className='bg-dark-300 rounded-2xl p-6 
+                            hover:-translate-y-2 transition duration-300 cursor-pointer'>
+                            <div className='flex items-center mb-4'>
+                                <data.icon className='w-12 h-12 text-purple mr-6'/>
+                                <h3 className='text-xl font-semibold'>{data.title}</h3>
+                            </div>
+                            <p className='text-gray-400 mb-4'>
+                                {data.description}
+                            </p>
+                            <div className='flex felx-wrap gap-2'>
+                                {data.tags.map((tech)=>(
+                                <span key={tech}
+                                    className='px-3 py-1 bg-dark-400 rounded-full text-sm'
+                                >
+                                    {tech}
+                                </span>
+                            ))}</div>
+                        </div>
+                    ))
+                }
+            </div>
         </div>
     </motion.div>    
   )
