@@ -1,5 +1,5 @@
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot, FaPython, FaHtml5, FaCss3 } from 'react-icons/fa';
-import { RiJavascriptFill } from "react-icons/ri";
+import { RiJavascriptFill, RiTailwindCssLine } from "react-icons/ri";
 import { SiMysql } from "react-icons/si";
 import { BsFiletypeScss } from "react-icons/bs";
 import profileImg from '../assets/MyPic.png';
@@ -39,7 +39,7 @@ export const skills = [
     title: 'Frontend Development',
     icon: FaReact,
     description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React', 'Tailwind CSS', 'JavaScript']
+    tags: ['React', 'Tailwind CSS', 'JavaScript','HTML', 'CSS']
   },
   {
     title: 'Backend Development',
