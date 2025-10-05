@@ -2,7 +2,6 @@ import { div } from 'framer-motion/client'
 import React, { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { FaXmark } from 'react-icons/fa6'
-import { Link } from 'react-router-dom'
 const Navbar = () => {
 
   const [showMenu, setShowMenu]=useState(false)
@@ -20,35 +19,35 @@ const Navbar = () => {
           </a>
         </div>
         <div className='hidden md:flex space-x-10'>
-          <Link to='/' className='relative text-white/80 transition duration-300 hover:text-purple group'>
+          <a href='#' className='relative text-white/80 transition duration-300 hover:text-purple group'>
             <span>Home</span>
             <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
-          </Link>
+          </a>
 
-          <Link to='/about' className='relative text-white/80 transition duration-300 hover:text-purple group'>
+          <a href='#about' className='relative text-white/80 transition duration-300 hover:text-purple group'>
             <span>About</span>
             <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
-          </Link>
+          </a>
           
-          <Link to='/skills' className='relative text-white/80 transition duration-300 hover:text-purple group'>
+          <a href='#skills' className='relative text-white/80 transition duration-300 hover:text-purple group'>
             <span>Skills</span>
             <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
-          </Link>
+          </a>
           
-          <Link to='/projects' className='relative text-white/80 transition duration-300 hover:text-purple group'>
+          <a href='#projects' className='relative text-white/80 transition duration-300 hover:text-purple group'>
             <span>Projects</span>
             <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
-          </Link>
+          </a>
           
-          <Link to='/experience' className='relative text-white/80 transition duration-300 hover:text-purple group'>
+          <a href='#experience' className='relative text-white/80 transition duration-300 hover:text-purple group'>
             <span>Experience</span>
             <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
-          </Link>
+          </a>
           
-          <Link to='/contact' className='relative text-white/80 transition duration-300 hover:text-purple group'>
+          <a href='#contact' className='relative text-white/80 transition duration-300 hover:text-purple group'>
             <span>Contact</span>
             <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
-          </Link>
+          </a>
         </div>
         {/* Mobile Button */}
         <div className='md:hidden'>
@@ -62,29 +61,29 @@ const Navbar = () => {
       {
         showMenu && (
           <div className='md:hidden mt-4 bg-dark-300 h-screen text-white/80 rounded-lg p-4 flex flex-col space-y-4'>
-            <Link to='/' onClick={()=>setShowMenu(!showMenu)} className='relative text-white/80 transition duration-300 hover:text-purple group'>
+            <a href='#' onClick={()=>setShowMenu(!showMenu)} className='relative text-white/80 transition duration-300 hover:text-purple group'>
               <span>Home</span>
-            </Link>
+            </a>
 
-            <Link to='/about' onClick={()=>setShowMenu(!showMenu)} className='relative text-white/80 transition duration-300'>
+            <a href='#about' onClick={()=>setShowMenu(!showMenu)} className='relative text-white/80 transition duration-300'>
               <span>About</span>
-            </Link>
+            </a>
             
-            <Link to='/skills' onClick={()=>setShowMenu(!showMenu)} className='relative text-white/80 transition duration-300'>
+            <a href='#skills' onClick={()=>setShowMenu(!showMenu)} className='relative text-white/80 transition duration-300'>
               <span>Skills</span>
-            </Link>
+            </a>
             
-            <Link to='/projects' onClick={()=>setShowMenu(!showMenu)} className='relative text-white/80 transition duration-300'>
+            <a href='#projects' onClick={()=>setShowMenu(!showMenu)} className='relative text-white/80 transition duration-300'>
               <span>Projects</span>
-            </Link>
+            </a>
             
-            <Link to='/experience' onClick={()=>setShowMenu(!showMenu)} className='relative text-white/80 transition duration-300'>
+            <a href='#experience' onClick={()=>setShowMenu(!showMenu)} className='relative text-white/80 transition duration-300'>
               <span>Experience</span>
-            </Link>
+            </a>
             
-            <Link to='/contact' onClick={()=>setShowMenu(!showMenu)} className='relative text-white/80 transition duration-300'>
+            <a href='#contact' onClick={()=>setShowMenu(!showMenu)} className='relative text-white/80 transition duration-300'>
               <span>Contact</span>
-            </Link>
+            </a>
           </div>
         )
       }
