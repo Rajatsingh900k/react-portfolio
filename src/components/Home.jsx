@@ -30,7 +30,7 @@ const Home = () => {
             Hi, I'm <span className='text-purple'>Rajat Singh</span>
           </h1>
           <h2 className='text-2xl md:text-4xl font-semibold mb-6 typewriter'>
-            Full Stack Developer & Software Engineer
+            Full Stack Developer
           </h2>
           <p>I create stunning web experience with mordern technologies and innovative design.</p>
           <div className='flex space-x-4 mt-5'>
