@@ -1,16 +1,101 @@
-# React + Vite
+# 🚀 React Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive **portfolio website** built using **React.js** and **Tailwind CSS**, deployed on **Vercel**.  
+This portfolio showcases my skills, projects, and professional journey as a software engineer.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [react-portfolio-ebon-ten-76.vercel.app](https://react-portfolio-ebon-ten-76.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📸 Preview
+![Portfolio Screenshot](./preview.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Features
+- ⚡ **Fast and Responsive** – Optimized for all screen sizes  
+- 🎨 **Modern UI/UX** – Built using React and Tailwind CSS  
+- 🔗 **Dynamic Components** – Reusable and modular code structure  
+- 💼 **Projects Showcase** – Displays personal and professional projects  
+- 📬 **Contact Section** – Users can reach out easily via integrated form or links  
+- ☁️ **Deployed on Vercel** – Smooth CI/CD and global CDN for fast loading  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies Used |
+|-----------|------------------|
+| **Frontend** | React.js, JSX, Tailwind CSS |
+| **Routing** | React Router DOM |
+| **Icons & Animations** | React Icons, Framer Motion |
+| **Deployment** | Vercel |
+
+---
+
+## 🧩 Folder Structure
+
+```
+src/
+├── assets/         # Images and icons
+├── components/     # Reusable UI components
+├── pages/          # Page sections like Home, About, Projects, Contact
+├── App.jsx         # Main app component
+└── index.js        # Entry point
+```
+
+---
+
+## 🚀 Setup & Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/react-portfolio.git
+   ```
+
+2. **Navigate into the folder**
+   ```bash
+   cd react-portfolio
+   ```
+
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 💼 Projects Showcased
+
+### 🛒 Grocery Store Management System
+A complete web-based system for managing grocery store operations, including inventory, sales, and customer records.  
+🔗 [View Repository](https://github.com/Rajatsingh900k/Grocery-Store-webApp)
+
+### 💰 Crypto Web App
+A simple and elegant crypto tracking application that displays real-time coin data and market trends using API integration.  
+🔗 [View Repository](https://github.com/Rajatsingh900k/Crypto-WebApp)
+
+### 💻 DSA with JavaScript
+A collection of Data Structures and Algorithms implemented in JavaScript for learning and interview preparation.  
+🔗 [View Repository](https://github.com/Rajatsingh900k/DSA-with-JS)
+
+---
+
+## 🧑‍💻 Author
+
+**Rajat Singh**  
+🌐 [Portfolio](https://react-portfolio-ebon-ten-76.vercel.app)  
+💼 [LinkedIn](https://linkedin.com/in/rajatsingh900k)  
+💻 [GitHub](https://github.com/Rajatsingh900k)
+
+
+---
+
+### ⭐ If you like this project, give it a star on GitHub!
+
+© 2025 Created by **Rajat Singh**. All rights reserved.
