@@ -101,7 +101,7 @@ export const workData = [
   {
     role: "Trainee ASE",
     company: "Accenture",
-    duration: "Aug 2025 - Jan 2025",
+    duration: "Aug 2025 - Jan 2026",
     description:
       "As a Trainee Associate Software Engineer at Accenture, I am gaining hands-on experience in various technologies while building a strong technical foundation. My training includes learning SAP S/4HANA Materials Management, where I’m developing skills in enterprise resource planning, procurement processes, and system configuration to prepare for real-world project implementation.",
     color: "pink"

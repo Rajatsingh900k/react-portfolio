@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import MyPic from '../assets/MyPic.png';
+import TyperWritter from '../components/TypeWritter'
 const Home = () => {
   return (
     <motion.div
@@ -29,19 +30,22 @@ const Home = () => {
           <h1 className='text-4xl md:text-6xl font-bold mb-4'>
             Hi, I'm <span className='text-purple'>Rajat Singh</span>
           </h1>
-          <h2 className='text-2xl md:text-4xl font-semibold mb-6 typewriter'>
-            Full Stack Developer
+          <h2 className='text-2xl md:text-4xl font-semibold mb-6 text-purple'>
+              <TyperWritter/>
           </h2>
-          <p>I create stunning web experience with mordern technologies and innovative design.</p>
+          {/* <h2 className='text-2xl md:text-4xl font-semibold mb-6 typewriter'>
+            Full Stack Developer
+          </h2> */}
+          <p>Engineer by logic. Designer by heart. Creating seamless experiences through code.</p>
           <div className='flex space-x-4 mt-5'>
-            <Link className='px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300'
-            to="/projects">
+            <a className='px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300'
+            href="#projects">
               View Work
-            </Link>
-            <Link className='px-6 py-3 border rounded-lg font-medium hover:bg-purple/20 transition duration-300' 
-            to="/contact">
+            </a>
+            <a className='px-6 py-3 border rounded-lg font-medium hover:bg-purple/20 transition duration-300' 
+            href="#contact">
               Contact Me
-            </Link>
+            </a>
           </div>
         </div>
         {/* right side content */}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhone } from 'react-icons/fa'
+import { FaX } from 'react-icons/fa6'
 const Contact = () => {
   return (
     <motion.div
@@ -110,6 +111,10 @@ const Contact = () => {
                             className='w-12 h-12 rounded-full flex items-center bg-dark-300 justify-center text-purple
                             hover:text-white transition duration-300' 
                             href="https://www.linkedin.com/in/rajat-singh-417b4a224"><FaLinkedin/></a>
+                            <a
+                            className='w-12 h-12 rounded-full flex items-center bg-dark-300 justify-center text-purple
+                            hover:text-white transition duration-300' 
+                            href="https://x.com/RajatSingh900k"><FaX/></a>
                         </div>
                     </div>
                 </div>

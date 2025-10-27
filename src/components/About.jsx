@@ -59,10 +59,11 @@ const About = () => {
                       and dove into programming—learning JavaScript and React.
                       I also sharpened my problem-solving through multiple hackathons and self-driven practice.
                     </p>
-                    <p className='text-gray-300 mb-12'>
+                    <p className='text-gray-300 mb-6'>
                       Those projects and experiences led to internships (including Automation Anywhere) 
                       and eventually to a trainee associate software engineer role at Accenture.
                     </p>
+                    <p className='text-gray-300 mb-12'>Currently, I am exploring Data Science and AI/ML.</p>
                     {/* Cards */}
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                       {
