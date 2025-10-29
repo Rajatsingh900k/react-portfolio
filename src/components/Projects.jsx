@@ -29,7 +29,7 @@ const Projects = () => {
             ))}
         </div>
         <div className='text-center mt-12'>
-            <a href="#"
+            <a href="https://github.com/Rajatsingh900k"
             className='inline-flex items-center px-6 py-3 border-purple rounded-lg border
             font-medium hover:bg-purple/20 transition duration-300'
             >

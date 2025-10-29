@@ -69,8 +69,7 @@ const Contact = () => {
                         <div>
                             <h3 className='text-lg font-semibold mb-2'>Location</h3>
                             <p className='text-gray-200'>
-                                Ramji Machinery, Nahar Bazar, <br />
-                                Achhalda, Auraiya (206241).
+                                Uttar Pradesh, India.
                             </p>
                         </div>
                     </div>

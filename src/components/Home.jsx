@@ -31,7 +31,7 @@ const Home = () => {
             Hi, I'm <span className='text-purple'>Rajat Singh</span>
           </h1>
           <h2 className='text-2xl md:text-4xl font-semibold mb-6 text-purple'>
-              <TyperWritter/>
+              <TyperWritter className='text-2xl md:text-4xl font-semibold'/>
           </h2>
           {/* <h2 className='text-2xl md:text-4xl font-semibold mb-6 typewriter'>
             Full Stack Developer
@@ -39,8 +39,8 @@ const Home = () => {
           <p>Engineer by logic. Designer by heart. Creating seamless experiences through code.</p>
           <div className='flex space-x-4 mt-5'>
             <a className='px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300'
-            href="#projects">
-              View Work
+            href="https://drive.google.com/file/d/1167l46iGjivzIJodVEVZ4wYRPEiN8V5M/view?usp=drive_link" target='_blank'>
+              Resume
             </a>
             <a className='px-6 py-3 border rounded-lg font-medium hover:bg-purple/20 transition duration-300' 
             href="#contact">

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 export default function Typewriter({
-  words = ["Web Developer.","Game Developer.","Software Engineer.","Data Scientist."],
+  words = ["Web Developer","Game Developer","Software Engineer","Data Scientist"],
   typingSpeed = 80,
   deletingSpeed = 40,
   pause = 1200,
