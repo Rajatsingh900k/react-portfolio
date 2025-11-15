@@ -95,7 +95,7 @@ const Contact = () => {
                         <div>
                             <h3 className='text-lg font-semibold mb-4'>Mobile No.</h3>
                             <p className='text-gray-200'>
-                                +91 6397858359
+                                +91 XXXXXXXXXX
                             </p>
                         </div>
                     </div>
